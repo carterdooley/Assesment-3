@@ -36,3 +36,9 @@ input {
 img {
 	max-width: 300px;
 }
+
+.profBtn {
+	width: 30%;
+	height: 10%;
+	background-color: yellow;
+}
