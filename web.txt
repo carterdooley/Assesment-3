@@ -1,0 +1,9 @@
+	Carter Dooley
+	Clicking on a and using a browser to open a web page is easy and fast, but what’s going on behind the screen is not quite 
+as simple. When a link is clicked, the first thing that happens is a request is sent to a server. The request is made up of 
+unique parts to specify what the request is asking from the server.  The first part of a link is the protocol, followed by the 
+domain, then the endpoint.
+
+	The protocol is usually represented by “HTTPS” or “HTTP” which stands for “Hypertext Transfer Protocol (Secure). This part
+ of the request tells the server how to read the code being presented to it, and HTTTPS is more secure. Then the protocol uses the
+ domain to grab the code to read.  
