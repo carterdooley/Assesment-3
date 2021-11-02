@@ -10,9 +10,11 @@ const getRandom = () => {
 
 
 document.querySelector('#rest').addEventListener('click', () => {
+    let x = document.createElement("li")
     let p = document.createElement("a");
+    document.querySelector('.rest1').append(x)
     let rando = getRandom()
     p.setAttribute('href', rando)
     p.textContent = rando
-    document.querySelector(".rest1").append(p)
+    x.append(p)
 })
